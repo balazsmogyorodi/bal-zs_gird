@@ -9,8 +9,18 @@ text-transform: unset;
 
 }
 
-h1,h2, a, ul{
+h1,h2, a, ul, p, h3{
 color: white;
+}
+
+h3 {
+    font-size: 38pt;
+    text-align: justify;
+    border-bottom: 2px solid red;
+
+
+
+
 }
 
 h1, h2 {
@@ -54,8 +64,6 @@ div#table {
 
 
 
-
-
 }
 
 div#rajz {
@@ -70,8 +78,22 @@ div#rajz {
 
 }
 
+div#middle{
+   
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-width: 2px;
+}
+
+
+
 img#alap {
     float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
 
 }
 
@@ -113,11 +135,35 @@ a:link {
 }
 
     
+div#main {
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: max-content;
+
+  
+
+}
+
+
+
+div#first2 {
+    text-align: justify;
+
+
+
+}
+
+
+div#secoond2 {
+    float: right;
 
 
 
 
-
+}
     
    
 
