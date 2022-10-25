@@ -3,7 +3,7 @@
 
 
 body {
-background-color: #333333;
+background-color: #282828;
 font-family: Arial, Helvetica, sans-serif;
 text-transform: unset;
 
@@ -15,7 +15,7 @@ color: white;
 
 h3 {
     font-size: 38pt;
-    text-align: justify;
+    text-align: left;
     border-bottom: 2px solid red;
 
 
@@ -66,17 +66,7 @@ div#table {
 
 }
 
-div#rajz {
-    background-color: black;
-    
-  float: right;
 
-  margin: 20pt;
-  width: 100%;
-
-
-
-}
 
 div#middle{
    
@@ -106,9 +96,13 @@ ul#menu {
 }
 
 ul#list {
-    list-style-type: square ;
+    list-style-image: url(nyíl.png) ;
     display: inline-block;
     text-align: left;
+    
+
+    bottom: ;: 10px;
+    
     
    
    
@@ -136,12 +130,19 @@ a:link {
 
     
 div#main {
+    background-color: black;
+    
+
+  
+   
+    width: 70%  ;
+    
 
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    max-width: max-content;
+    grid-template-columns:  1fr 1fr  ;
+    
+    
 
   
 
@@ -150,22 +151,41 @@ div#main {
 
 
 div#first2 {
+    
     text-align: justify;
-
 
 
 }
 
 
 div#secoond2 {
-    float: right;
+
+
+}
+    
+
+
+
+img.alap {
+size: 50pt;
+
+
+}
+   
+@media only screen and (max-width: 600px) {
+    .main{
+        grid-template-columns: 1fr;
+
+    }
+
+
+
 
 
 
 
 }
-    
-   
+
 
 
     
